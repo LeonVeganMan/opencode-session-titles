@@ -1,0 +1,33 @@
+{
+  "name": "opencode-auto-title",
+  "version": "0.1.0",
+  "description": "Rename the OpenCode session every N replies with a title generated from the conversation",
+  "type": "module",
+  "exports": {
+    "./tui": "./tui.ts"
+  },
+  "files": [
+    "tui.ts",
+    "src"
+  ],
+  "scripts": {
+    "test": "bun test"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "session",
+    "title"
+  ],
+  "license": "MIT",
+  "author": "Leonardo Cosmai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonVeganMan/opencode-auto-title.git"
+  },
+  "homepage": "https://github.com/LeonVeganMan/opencode-auto-title",
+  "devDependencies": {
+    "@opencode/plugin": "latest"
+  }
+}
