@@ -4,7 +4,7 @@ import { join } from "node:path"
 import { Plugin } from "@opencode/plugin/tui"
 import { cleanTitle, due, parseConfig, type Config } from "./src/title"
 
-const CONFIG_PATH = join(homedir(), ".config/opencode/opencode-auto-title.json")
+const CONFIG_PATH = join(homedir(), ".config/opencode/opencode-session-titles.json")
 
 // `session.generate` resends the whole session to the model, which on a long
 // conversation blows past the context limit. A one-shot request with a short
@@ -31,7 +31,7 @@ function titlePrompt(maxLength: number, language: string) {
 }
 
 export default Plugin.define({
-  id: "opencode-auto-title",
+  id: "opencode-session-titles",
   setup(context) {
     let config: Config = parseConfig(null)
     const counts = new Map<string, number>()
@@ -93,7 +93,7 @@ export default Plugin.define({
       priority: 10,
       commands: [
         {
-          id: "opencode-auto-title.title",
+          id: "opencode-session-titles.title",
           title: "Rename session (AI title)",
           group: "Session",
           palette: true,

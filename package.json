@@ -1,5 +1,5 @@
 {
-  "name": "@leonveganman/opencode-auto-title",
+  "name": "opencode-session-titles",
   "version": "0.1.1",
   "description": "Rename the OpenCode session every N replies with a title generated from the conversation",
   "type": "module",
@@ -24,9 +24,9 @@
   "author": "Leonardo Cosmai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeonVeganMan/opencode-auto-title.git"
+    "url": "git+https://github.com/LeonVeganMan/opencode-session-titles.git"
   },
-  "homepage": "https://github.com/LeonVeganMan/opencode-auto-title",
+  "homepage": "https://github.com/LeonVeganMan/opencode-session-titles#readme",
   "devDependencies": {
     "@opencode/plugin": "latest"
   },

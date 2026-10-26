@@ -1,4 +1,4 @@
-# opencode-auto-title
+# opencode-session-titles
 
 Renames the OpenCode session every few replies, using a title generated from the
 conversation itself.
@@ -10,7 +10,7 @@ replies after that, so the tab list and the tab bar stay readable.
 ## Install
 
 ```bash
-opencode plugin add @leonveganman/opencode-auto-title
+opencode plugin add opencode-session-titles
 ```
 
 Restart the TUI afterwards: CLI plugins are loaded by the client process.
@@ -18,15 +18,15 @@ Restart the TUI afterwards: CLI plugins are loaded by the client process.
 From a clone (development):
 
 ```bash
-git clone https://github.com/LeonVeganMan/opencode-auto-title
-cd opencode-auto-title
+git clone https://github.com/LeonVeganMan/opencode-session-titles
+cd opencode-session-titles
 # the clone must live outside ~/.config/opencode/plugins if you installed from npm,
 # otherwise OpenCode loads the same plugin twice
 ```
 
 ## Configuration
 
-Optional file at `~/.config/opencode/opencode-auto-title.json`. Missing keys keep
+Optional file at `~/.config/opencode/opencode-session-titles.json`. Missing keys keep
 their default, and the file is read once at startup.
 
 ```json
