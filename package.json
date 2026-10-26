@@ -24,7 +24,7 @@
   "author": "Leonardo Cosmai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LeonVeganMan/opencode-auto-title.git"
+    "url": "git+https://github.com/LeonVeganMan/opencode-auto-title.git"
   },
   "homepage": "https://github.com/LeonVeganMan/opencode-auto-title",
   "devDependencies": {
