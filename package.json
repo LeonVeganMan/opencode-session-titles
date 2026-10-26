@@ -1,5 +1,5 @@
 {
-  "name": "opencode-auto-title",
+  "name": "@leonveganman/opencode-auto-title",
   "version": "0.1.0",
   "description": "Rename the OpenCode session every N replies with a title generated from the conversation",
   "type": "module",
@@ -29,5 +29,8 @@
   "homepage": "https://github.com/LeonVeganMan/opencode-auto-title",
   "devDependencies": {
     "@opencode/plugin": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

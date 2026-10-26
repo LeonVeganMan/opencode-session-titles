@@ -10,7 +10,7 @@ replies after that, so the tab list and the tab bar stay readable.
 ## Install
 
 ```bash
-opencode plugin add opencode-auto-title
+opencode plugin add @leonveganman/opencode-auto-title
 ```
 
 Restart the TUI afterwards: CLI plugins are loaded by the client process.
